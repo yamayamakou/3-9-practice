@@ -1,0 +1,91 @@
+html, body,
+ul, ol, li,
+h1, h2, h3, h4, h5, h6, p, div {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Hiragino Kaku Gothic ProN W3', sans-serif;
+  max-width:2000px;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.top{
+  width:100%;
+  background-color:#DCDAD5
+}
+
+.top-contents{
+  width:100%;
+  display:flex;
+  justify-content:space-around;
+}
+
+.english{
+  display:inline-block;
+  background-color:#1F1C1C;
+  color:white;
+  padding:6px 20px;
+  transition:all 0.4s;
+}
+
+.fa-bars{
+  display:none;
+  padding-right:6px;
+}
+
+.english:hover{
+  opacity:0.5;
+}
+
+.fa-twitter{
+  padding:5px;
+  margin-top:3px;
+}
+
+.top-contents p{
+  margin:5px;
+  font-weight:700;
+}
+
+.caa{
+  padding:40px;
+  background-color:red;
+  color:#12ee34;
+}
+
+.acc{
+  padding:20px;
+  color:#3325aa;
+  font-weight:800;
+  display:none;
+}
+
+.fa-twitter:hover{
+  color:#00acee;
+}
+
+.fa-facebook-f{
+  padding:5px;
+  margin-left:10px;
+}
+
+.fa-facebook-f:hover{
+  color:#3B5998;
+}
+
+.bu{
+  padding:40px;
+}
+
+.bua{
+  padding-right:20px;
+}
